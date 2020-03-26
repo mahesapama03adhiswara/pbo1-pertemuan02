@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class InputOutput{
  public static void main(String [] args){
-  Scaner scaner = new Scaner(System.in);
+  Scanner scanner = new Scanner(System.in);
   String nama;
   System.out.print("Masukkan nama anda:  ");
   nama = scanner.nextLine();
